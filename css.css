@@ -1,0 +1,27 @@
+@media (min-width: 980px) {
+    .carousel-item img {
+      width: 300px;
+      height: 450px;
+    }
+  }
+
+
+  .carousel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .contlogo {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  
+  .logo {
+    flex-shrink: 0;
+  }
+  
+  .slogan {
+    margin-left: 10px;
+  }
+  
