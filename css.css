@@ -25,29 +25,31 @@
     margin-left: 10px;
   }
   
+/* 3pics */
 
+.threepics{
+  height:400px;
+  width:390x;
+}
   /* google map// */
 
-.google-map {
+  .google-map {
     padding-bottom: 50%;
     position: relative;
-    max-width: 100%;
-    margin: 0 auto; /* add this line to center the map horizontally */
 }
 
 .google-map iframe {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     left: 0;
     top: 0;
     position: absolute;
 }
 
-
-
 /* contact */
 
-body {
+.contactform {
+  margin-left:50px;
   background-color: #f5e0e5 !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -58,7 +60,29 @@ body {
 
 .contact-form {
   padding: 30px 40px;
-  background-color: #ffffff;
+  background-color: #f5e0e5;
   border-radius: 12px;
   max-width: 400px;
 }
+
+/* facebook contact */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* ennd facebook css */
