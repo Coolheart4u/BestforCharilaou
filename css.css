@@ -5,6 +5,12 @@
     }
   }
 
+@media (min-width: 368px) {
+    .flier {
+      width: 150px;
+      height: 175px;
+    }
+  } 
 
   .carousel{
     margin-top: 50px;
